@@ -1,5 +1,5 @@
 {
-  "name": "redux-oidc",
+  "name": "@geops/redux-oidc",
   "version": "3.1.2",
   "description": "A package for managing OpenID Connect authentication in redux apps",
   "main": "dist/redux-oidc.js",
@@ -70,5 +70,9 @@
     "transform": [
       "reactify"
     ]
+  },
+  "dependencies": {
+    "oidc-client": "^1.7.1",
+    "react": "^16.8.6"
   }
 }
